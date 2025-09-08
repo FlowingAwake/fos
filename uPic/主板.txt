@@ -1,0 +1,74 @@
+# dmidecode 3.3
+Getting SMBIOS data from sysfs.
+SMBIOS 3.6.0 present.
+# SMBIOS implementations newer than version 3.5.0 are not
+# fully supported by this version of dmidecode.
+
+Handle 0x0004, DMI type 2, 17 bytes
+Base Board Information
+        Manufacturer: Joinus        
+        Product Name: DH40000
+        Version: 0206-00235-0001
+        Serial Number: DH40000
+        Asset Tag: 0000000000000000
+        Features:
+                Board is a hosting board
+                Board is replaceable
+        Location In Chassis: TBD
+        Chassis Handle: 0x0000
+        Type: Motherboard
+        Contained Object Handles: 0
+
+Handle 0x0040, DMI type 41, 11 bytes
+Onboard Device
+        Reference Designation: Onboard - Video
+        Type: Video
+        Status: Enabled
+        Type Instance: 1
+        Bus Address: 0000:07:00.0
+
+Handle 0x0041, DMI type 41, 11 bytes
+Onboard Device
+        Reference Designation: Onboard - SATA
+        Type: SATA Controller
+        Status: Disabled
+        Type Instance: 1
+
+Handle 0x0042, DMI type 41, 11 bytes
+Onboard Device
+        Reference Designation: Onboard - SATA
+        Type: SATA Controller
+        Status: Disabled
+        Type Instance: 2
+
+Handle 0x0043, DMI type 41, 11 bytes
+Onboard Device
+        Reference Designation: Onboard - Lan
+        Type: Ethernet
+        Status: Enabled
+        Type Instance: 1
+        Bus Address: 0000:03:00.0
+
+Handle 0x0044, DMI type 41, 11 bytes
+Onboard Device
+        Reference Designation: Onboard - Lan
+        Type: Ethernet
+        Status: Enabled
+        Type Instance: 2
+        Bus Address: 0000:03:00.1
+
+Handle 0x0045, DMI type 41, 11 bytes
+Onboard Device
+        Reference Designation: Onboard - Lan
+        Type: Ethernet
+        Status: Enabled
+        Type Instance: 3
+        Bus Address: 0000:03:00.2
+
+Handle 0x0046, DMI type 41, 11 bytes
+Onboard Device
+        Reference Designation: Onboard - Lan
+        Type: Ethernet
+        Status: Enabled
+        Type Instance: 4
+        Bus Address: 0000:03:00.3
